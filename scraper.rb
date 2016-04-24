@@ -1,7 +1,13 @@
+require 'scraperwiki'
 # encoding: UTF-8
 require 'nokogiri'
 require 'mechanize'
 require 'json'
+# TODO:
+# 1. Fork the ScraperWiki library (if you haven't already) at https://classic.scraperwiki.com/scrapers/mcf/
+# 2. Add the forked repo as a git submodule in this repo
+# 3. Change the line below to something like require File.dirname(__FILE__) + '/mcf/scraper'
+# 4. Remove these instructions
 require 'scrapers/mcf'
 
 BASE_URL = "http://www.difc.ae"
